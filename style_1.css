@@ -1,0 +1,35 @@
+.u1 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.u1 li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+}
+.u2 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.u2 li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+}
+.u3 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.u4 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.u5 {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
