@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人简历</title>
+	<style type="text/css">
+		.nav {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(174,174,174);
+	color: white;
+	font-size: 20px;
+	line-height: 100px;
+	padding-left: 40px;
+}
+.content {
+	width: 100%;
+}
+.content1 {
+	float: left;
+	width: 20%;
+	height: 500px;
+	background-color: rgb(214,214,214);
+}
+.content1 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.content1 ul li {
+	text-align: center;
+	line-height: 100px;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+.content2 {
+	float: left;
+	margin-left: 5%；
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+.content2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.content2>ul>li {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+.l1 ul li {
+	display: inline;
+	margin-left: 20px;
+}
+.l2 ul li {
+	display: inline;
+	margin-left: 20px;
+}
+.l3 h4,.l3 p {
+	display: inline;
+}
+.l4 h4,.l4 p{
+	display: inline;
+}
+.l5 h4,.l5 p {
+	display: inline;
+}
+.l3,.l4,.l5{
+    padding-left: 15px;
+}
+#btn1{
+	margin-left: 200px;
+	background-color: pink;
+	width: 80px;
+	height: 40px;
+}
+#btn2,#btn3{
+	height: 50px;
+}
+	</style>
+</head>
+<body>
+<div class="nav">个人简历</div>
+<div class="content">
+<div class="content1">
+	<ul>
+		<li>基本信息</li>
+		<li>联系方式</li>
+		<li>能力描述</li>
+		<li>教育经历</li>
+		<li>项目经历</li>
+	</ul>
+</div>
+<div class="content2">
+	<ul>
+		<li class="l1">
+			<ul>
+		        <li>姓名 张三</li>
+		        <li>性别 男</li>
+				<li>应聘职位 Web前端工程师</li>
+				<button id="btn1" onclick="myfunction()">爱好展示</button>
+			</ul>
+		</li>
+		
+		<li class="l2">
+			<ul>
+				<li>手机 12312341234</li>
+				<li><button id="btn2">Email <a href="">joinefe@baidu.com</a></button></li>
+				<li><button id="btn3">个人主页 <a href="">Github</a></button></li>
+			</ul>
+		</li>
+		
+		<li class="l3">
+			<ul>
+			<li>
+			    <h4>技术能力</h4>
+			    <p>熟练掌握HTML,CSS,JavaScript</p>
+		    </li>
+		    <li>
+		    	<h4>综合能力</h4>
+		    	<p>良好的沟通，主动积极，努力勤奋</p>
+		    </li>
+		    </ul>
+		</li>
+		
+		<li class="l4">
+			<ul>
+				<li><h4>本科</h4><p>百度前端技术学院小薇学院</p></li>
+				<li><h4>研究生</h4><p>百度前端技术学院大斌学院</p></li>
+			</ul>
+		</li>
+	
+		<li class="l5">
+			<ul>
+				<li><h4>小度小度</h4><p>作为前端工程师角色参与了ABC组件的开发</p></li>
+				<li><h4>SAN Doc</h4><p>作为文档工程师参与了SAN Doc编写</p></li>
+			</ul>
+		</li>
+		
+	</ul>
+</div>
+</div>
+
+
+<script >
+	function myfunction(){
+		document.getElementById("btn1").innerHTML="唱歌，跳舞";
+	}
+	document.getElementById("btn2").onclick=function(){
+		alert("这是我的联系邮箱");
+	}
+	document.getElementById("btn3").onclick=function(){
+		alert("这是我的主页。。。。");
+	}
+</script>
+</body>
+</html>
